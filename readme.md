@@ -41,7 +41,7 @@ docker run -d -p 3000:3000 --name cicd-container cicd-app
 
 ### Console Output
 
-'''
+```text
 17:22:27 Started by user Shivang Chaurasia
 17:22:27 Running as SYSTEM
 17:22:27 Building in workspace /var/jenkins_home/workspace/cicd-app
@@ -146,4 +146,4 @@ docker run -d -p 3000:3000 --name cicd-container cicd-app
 17:31:25 c24dc54224ec171513b4ae2a156e8894bac783f8d41be736b95b374ca616529e
 Finished: SUCCESS
 
-'''
+```
